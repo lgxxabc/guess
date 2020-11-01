@@ -1,1 +1,1 @@
-"# guess" 
+Guess a random number. 
