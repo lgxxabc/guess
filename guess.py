@@ -10,7 +10,12 @@
 
 # Practice:  Guess a number.  猜對：“恭喜。”猜錯：告訴他是比答案大/小。
 import random
-number = random.randint(1, 100)
+# Add a funciton2: allow the user to determine the scope of numbers
+start = input('Please enter the start value: ')
+end = input('Please enter the end value: ')
+start = int(start)
+end = int(end)
+number = random.randint(start, end)
 # Add a new function: count how many tries so far.
 count = 0
 while True:
