@@ -8,7 +8,6 @@
 # r = random.randint(1, 100)	#Scope:1 ~ 100
 # print(r)
 
-
 # Practice:  Guess a number.  猜對：“恭喜。”猜錯：告訴他是比答案大/小。
 import random
 number = random.randint(1, 100)
